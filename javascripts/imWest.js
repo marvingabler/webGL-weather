@@ -63,7 +63,7 @@ $(document).ready(function() {
 		}
 	});
 
-	var tiles = new L.tileLayer('http://a.tiles.mapbox.com/v3/briegn1.cfc1a74d/{z}/{x}/{y}.png',{attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"});
+	var tiles = new L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution: "<a href='https://www.openstreetmap.org/copyright' target='_blank'>&copy; OpenStreetMap </a> contributors"});
 	var leafletMap = L.map('map', {
 		center: [38.5, -111],
 		zoom: 7,
